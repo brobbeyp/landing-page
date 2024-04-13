@@ -2,6 +2,16 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* html { background-color: #000; }  */
+
+
+body {
+    /* width: 80%;
+    margin: 0 auto; */
+
 }
 img {
     border-radius: 16px;
@@ -14,26 +24,47 @@ div {
 
 .landing {
     flex-direction: column;
+    
 }
 .header-cont {
-    background-color: cornflowerblue;
+    background-color: #1F2937;
     flex-grow: 1;
+    height: 240px;
+    
     
 }
 .header {
-    padding: 8px;
+    gap: 16px;
     align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.logo-text {
+    color: #f9faf8;
+    font-size: 24px ;
+    font-weight: 900;
 }
 
 .right-links{
     flex-grow: 0;
-    gap: 16px;
+    gap: 32px;
     margin-right: 20px;
+
+}
+
+.right-links a {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.left-links {
+    flex-grow: 0;
+    margin: 16px;
 }
 
 .left-links .logo {
     width: 200px;
     height: 200px;
-    
-    
 }
+
