@@ -1,6 +1,10 @@
 * {
     padding: 0;
     margin: 0;
+    text-decoration: none;
+}
+img {
+    border-radius: 16px;
 }
 
 div {
@@ -14,14 +18,17 @@ div {
 .header-cont {
     background-color: cornflowerblue;
     flex-grow: 1;
+    
 }
 .header {
     padding: 8px;
-
+    align-items: center;
 }
 
-.left-links {
-    margin-right: auto;
+.right-links{
+    flex-grow: 0;
+    gap: 16px;
+    margin-right: 20px;
 }
 
 .left-links .logo {
