@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    display: flex;
+    flex: auto;
+}
+
+.landing {
+    flex-direction: column;
+}
+.header-cont {
+    background-color: cornflowerblue;
+    flex-grow: 1;
+}
+.header {
+    padding: 8px;
+
+}
+
+.left-links {
+    margin-right: auto;
+}
+
+.left-links .logo {
+    width: 200px;
+    height: 200px;
+    
+    
+}
