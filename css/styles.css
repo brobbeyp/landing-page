@@ -11,6 +11,7 @@
 body {
     /* width: 80%;
     margin: 0 auto; */
+    min-height: 100vh;
 
 }
 img {
@@ -27,10 +28,9 @@ div {
     
 }
 .header-cont {
-    background-color: #1F2937;
+    
     flex-grow: 1;
     height: 240px;
-    
     
 }
 .header {
@@ -40,22 +40,11 @@ div {
     margin: 100px;
 }
 
-.logo-text {
-    color: #f9faf8;
-    font-size: 24px ;
-    font-weight: 900;
-}
-
 .right-links{
     flex-grow: 0;
     gap: 32px;
     margin-right: 20px;
 
-}
-
-.right-links a {
-    font-size: 18px;
-    color: #F9FAF8;
 }
 
 .left-links {
@@ -68,3 +57,36 @@ div {
     height: 200px;
 }
 
+.hf-backgrounds {
+    background-color: #1F2937;
+}
+
+.hero-sec-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.logo-text {
+    color: #f9faf8;
+    font-size: 24px ;
+    font-weight: 900;
+}
+
+.button {
+    background-color: #3882f6;
+    font-size: 24px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    
+
+}
