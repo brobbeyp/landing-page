@@ -12,6 +12,7 @@ body {
      width: 80%;
     margin: 0 auto; 
     min-height: 100vh;
+    font-family: 'Sedan';
 
 }
 img {
@@ -62,6 +63,10 @@ div {
     background-color: #1F2937;
 }
 
+.c-backgrounds {
+    background-color: #fff;
+}
+
 .hero-sec-text {
     font-size: 18px;
     color: #e5e7eb;
@@ -108,11 +113,23 @@ div {
 
 .button {
     background-color: #3882f6;
-    font-size: 24px;
+    font-size: 18px;
     border: 0;
     line-height: 2.5;
-    padding: 0 10px;
+    padding: 10px 20px;
     text-align: center;
     color: #fff;
     border-radius: 20px;
+    font-weight: bold;
+}
+.card-cont {
+    padding: 50px 0;
+    flex-direction: column;
+    gap: 50px;
+}
+.card-title {
+    font-size: 36px;
+    font-weight:  bolder;
+    color:  #1f2937 ;
+    justify-content: center;
 }
