@@ -111,6 +111,8 @@ div {
     font-weight: 900;
 }
 
+
+
 .button {
     background-color: #3882f6;
     font-size: 18px;
@@ -171,4 +173,43 @@ div {
     color: #1f2937;
     font-style: italic;
     padding: 100px 150px;
+}
+
+
+.action-cont {
+    background-color: #fff;
+    padding: 100px 150px;
+}
+
+.action {
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 75px;
+}
+
+.action-txt {
+    flex-direction: column;
+    flex-grow: 3;
+}
+
+.action-button {
+    flex-grow: 0;
+}
+
+.action-button .button {
+    border: 5px solid #fff  ;
+    
+}
+
+#action-header {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#sign-up {
+    font-size: 18px;
+    color: #f9faf8;
+
 }
