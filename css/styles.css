@@ -9,7 +9,7 @@
 
 
 body {
-     width: 80%;
+    width: 80%;
     margin: 0 auto; 
     min-height: 100vh;
     font-family: 'Sedan';
@@ -107,7 +107,7 @@ div {
 
 .logo-text {
     color: #f9faf8;
-    font-size: 24px ;
+    font-size: 48px ;
     font-weight: 900;
 }
 
@@ -156,4 +156,19 @@ div {
 .cards img {
     width: 150px;
     height: 150px;
+}
+
+.content-cont {
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 80% ;
+    flex-grow: 0;
+    font-size: 36px ;
+    color: #1f2937;
+    font-style: italic;
+    padding: 100px 150px;
 }
